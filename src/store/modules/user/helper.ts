@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://api.multiavatar.com/chatgpt.svg',
+      avatar: 'https://xsgames.co/randomusers/avatar.php?g=male',
       name: 'Chatgpt',
       description: '3.5 turbo alpha test',
     },
